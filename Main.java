@@ -88,7 +88,7 @@ class Contact {
         System.out.print("Phone : ");
         String phone = sc.next();
         while (phone.length() != 10) {
-            System.out.print("\nEnter Correct Phone : ");
+            System.out.print("\nEnter Correct Phone Number: ");
             phone = sc.next();
         }
         mobile.add(phone);
